@@ -1,3 +1,25 @@
 ::-webkit-scrollbar{
     display: none;
 }
+
+body{
+    background-image: url("../images/background-cave.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+
+.btn-group > .btn-link, .btn-group > .btn-link:active {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border: 0px solid transparent;
+    outline: none;
+}
+
+.btn-group > .btn-link:hover{
+    -webkit-filter: saturate(10); 
+    filter: saturate(10);
+}
